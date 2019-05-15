@@ -23,6 +23,22 @@ Xavier Alvarez
 
 ---
 
+## Happy Path
+
+---
+
+### Git Repositories
+
+![Remote Repo](assets/img/git-upstream-repo.png)
+
+---
+
+### Git Repositories
+
+![Cloned Repo](assets/img/git-copy-upstream-repo.png)
+
+---
+
 ## Interesting Resources
 
 @ul[](false)
