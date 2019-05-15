@@ -29,13 +29,13 @@ Xavier Alvarez
 
 ### Git Repositories
 
-![Remote Repo](assets/img/git-upstream-repo.png)
+@img[no-border](assets/img/git-upstream-repo.png)
 
 ---
 
 ### Git Repositories
 
-![Cloned Repo](assets/img/git-copy-upstream-repo.png)
+@img[no-border](assets/img/git-copy-upstream-repo.png)
 
 ---
 
