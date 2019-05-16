@@ -37,6 +37,21 @@ Xavier Alvarez
 
 @img[no-border](assets/img/git-copy-upstream-repo.png)
 
+Note:
+
+- A fork is a 1:1 copy of _upstream_.
+- Naming convention: _origin_ is where I work, _upstream_ is where I create pull requests.
+
+---
+
+### Initial Setup
+
+```
+git clone -o upstream \
+    git@github.com:xalvarez/git-cli-workshop.git
+hub fork --remote-name origin
+```
+
 ---
 
 ## Interesting Resources
