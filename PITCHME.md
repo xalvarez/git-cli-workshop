@@ -128,6 +128,7 @@ git push -u <remote> <branch>
 hub pull-request -o
 ```
 
+---
 
 ## Interesting Resources
 
