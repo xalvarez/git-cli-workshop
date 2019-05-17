@@ -27,13 +27,13 @@ Xavier Alvarez
 
 ---
 
-### Git Repositories
+### Git Repositories (I)
 
 @img[no-border](assets/img/git-upstream-repo.png)
 
 ---
 
-### Git Repositories
+### Git Repositories (II)
 
 @img[no-border](assets/img/git-copy-upstream-repo.png)
 
@@ -56,7 +56,7 @@ hub fork --remote-name origin
 
 ---
 
-### Starting to work
+### Starting to work (I)
 
 Updating references:
 
@@ -64,9 +64,25 @@ Updating references:
 git fetch upstream
 # or git fetch --all
 
-git checkout -b <new-branch-name> \
-    [<remote>/<branch-to-copy-and-track>]
+git checkout -b <new-branch-name> [<remote>[/<branch>]]
 # or git checkout -b <new-branch-name>
+
+git branch <new-branch-name> [<remote>[/<branch>]]
+# or git branch <new-branch-name>
+```
+
+---
+
+### Starting to work (II)
+
+Checking working branch:
+
+```bash
+git branch -vv
+
+git branch -m <new-branch-name>
+
+git branch -u <remote>[/<branch>]
 ```
 
 ---
