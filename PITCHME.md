@@ -46,10 +46,26 @@ Note:
 
 ### Initial Setup
 
+Cloning and forking a repository:
+
 ```
 git clone -o upstream \
     git@github.com:xalvarez/git-cli-workshop.git
 hub fork --remote-name origin
+```
+
+---
+
+### Starting to work
+
+Updating references:
+
+```
+git fetch upstream
+# or git fetch --all
+
+git checkout -b <new-branch-name> [<remote>/<branch-to-copy-and-track>]
+# or git checkout -b <new-branch-name>
 ```
 
 ---
