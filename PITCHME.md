@@ -11,7 +11,7 @@ Xavier Alvarez
 @ol[](false)
 
 - Happy Path
-- Re-writing and viewing history
+- Viewing and re-writing history
 - Conflict resolution
 - Reverts & resets
 - Removing & moving files
@@ -127,6 +127,30 @@ git push -u <remote> <branch>
 
 hub pull-request -o
 ```
+
+---
+
+## Viewing and re-writing history
+
+---
+
+### Viewing history (I)
+
+```bash
+git log
+
+git log -<number_of_commits>
+
+git log <path>
+
+git log --oneline
+
+git log --raw
+```
+
+---
+
+### Viewing history (II)
 
 ---
 
