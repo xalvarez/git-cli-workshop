@@ -117,7 +117,18 @@ git commit --amend
 
 ---
 
-### Delivering changes
+### Delivering changes (I)
+
+Merging local and remote branches:
+```bash
+git fetch upstream
+
+git rebase upstream/master
+```
+
+---
+
+### Delivering changes (II)
 
 Creating a pull request:
 ```bash
@@ -134,8 +145,9 @@ hub pull-request -o
 
 ---
 
-### Viewing history (I)
+### Viewing history
 
+Checking last commits:
 ```bash
 git log
 
@@ -150,7 +162,7 @@ git log --raw
 
 ---
 
-### Viewing history (II)
+### Re-writing history
 
 ---
 
