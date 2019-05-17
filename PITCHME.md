@@ -48,7 +48,7 @@ Note:
 
 Cloning and forking a repository:
 
-```
+```bash
 git clone -o upstream \
     git@github.com:xalvarez/git-cli-workshop.git
 hub fork --remote-name origin
@@ -60,11 +60,12 @@ hub fork --remote-name origin
 
 Updating references:
 
-```
+```bash
 git fetch upstream
 # or git fetch --all
 
-git checkout -b <new-branch-name> [<remote>/<branch-to-copy-and-track>]
+git checkout -b <new-branch-name> \
+    [<remote>/<branch-to-copy-and-track>]
 # or git checkout -b <new-branch-name>
 ```
 
