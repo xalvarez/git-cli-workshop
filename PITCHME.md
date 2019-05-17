@@ -87,6 +87,36 @@ git branch -u <remote>[/<branch>]
 
 ---
 
+### Committing changes (I)
+
+Preparing a commit:
+```bash
+git status
+
+git add <path>
+
+git add -u
+
+git add -A
+```
+
+---
+
+### Committing changes (II)
+
+Preparing a commit:
+```bash
+git commit
+
+git commit -m
+
+git commit -a
+
+git commit --amend
+```
+
+---
+
 ## Interesting Resources
 
 @ul[](false)
