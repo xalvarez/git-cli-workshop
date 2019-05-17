@@ -117,6 +117,18 @@ git commit --amend
 
 ---
 
+### Delivering changes
+
+Creating a pull request:
+```bash
+git push
+
+git push -u <remote> <branch>
+
+hub pull-request -o
+```
+
+
 ## Interesting Resources
 
 @ul[](false)
