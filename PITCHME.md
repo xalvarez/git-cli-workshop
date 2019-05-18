@@ -162,7 +162,9 @@ git log --raw
 
 ---
 
+@snap[north span-100]
 ### Re-writing history
+@snapend
 
 @snap[west span-40]
 @box[bg-green text-white box-padding](Changing last commit#git commit --amend)
