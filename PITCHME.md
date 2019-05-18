@@ -240,6 +240,19 @@ git reset [mode] <commit_hash>
 
 ---
 
+### Stashing
+
+```bash
+git stash
+git stash push [-m <message>
+git stash list
+git stash apply [stash_id]
+git stash pop [stash_id]
+git branch <new-branch-name> [stash_id]
+```
+
+---
+
 ## Interesting Resources
 
 @ul[](false)
