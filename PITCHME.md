@@ -180,6 +180,15 @@ git log --raw
 
 ---
 
+@snap[west span-45]
+@img[no-border](assets/img/git-before-amend.png)
+@snapend
+
+@snap[east span-45]
+@img[no-border fragment](assets/img/git-after-amend.png)
+@snapend
+---
+
 ## Interesting Resources
 
 @ul[](false)
