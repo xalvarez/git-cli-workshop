@@ -13,8 +13,6 @@ Xavier Alvarez
 - Happy Path
 - Viewing and re-writing history
 - Undoing changes
-- Conflict resolution
-- Removing & moving files
 - Git configuration
 - Handling multiple accounts
 - Guidelines for writing commits
@@ -256,6 +254,28 @@ git stash apply [stash_id]
 git stash pop [stash_id]
 git branch <new-branch-name> [stash_id]
 ```
+
+---
+
+@snap[north span-100]
+### Git Configuration
+@snapend
+
+@snap[west span-45]
+@box[bg-green text-white box-padding](Repo's config#.git/config)
+```bash
+git config -l
+```
+@snapend
+
+@snap[east span-45]
+@box[bg-green text-white box-padding](Repo's config#~.gitconfig)
+```bash
+git config --global -l
+```
+@snapend
+
+
 
 ---
 
