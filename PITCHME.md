@@ -257,16 +257,14 @@ git branch <new-branch-name> [stash_id]
 
 ---
 
-@snap[north span-100]
 ### Git Configuration
-@snapend
 
-@snap[south-west span-35]
+@snap[south-west span-25]
 @box[bg-green text-white box-padding](Repo's config#.git/config)
 @snapend
 
-@snap[south-east span-35]
-@box[bg-green text-white box-padding](Repo's config#~.gitconfig)
+@snap[south-east span-25]
+@box[bg-green text-white box-padding](Global config#~.gitconfig)
 @snapend
 
 ```bash
