@@ -272,7 +272,7 @@ Configuration files:
 @ul[](false)
 
 - Global configuration: ~.gitconfig
-- -Current repo's configuration: .git/config
+- Current repo's configuration: .git/config
 
 @ulend
 
