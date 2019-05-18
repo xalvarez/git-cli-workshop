@@ -44,6 +44,8 @@ Note:
 
 ---
 
+@title[Initial Setup (I)]
+
 ### Initial Setup
 
 Cloning and forking a repository:
@@ -55,6 +57,8 @@ hub fork --remote-name origin
 ```
 
 ---
+
+@title[Initial Setup (II)]
 
 @img[no-border](assets/img/git-after-cloning.png)
 
@@ -166,6 +170,8 @@ git log --raw
 
 ---
 
+@title[Re-writing history (I)]
+
 @snap[north span-100]
 ### Re-writing history
 @snapend
@@ -179,6 +185,8 @@ git log --raw
 @snapend
 
 ---
+
+@title[Re-writing history (II)]
 
 @snap[west span-35]
 @img[no-border](assets/img/git-before-amend.png)
