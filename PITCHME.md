@@ -164,12 +164,12 @@ git log --raw
 
 ### Re-writing history
 
-@snap[west span-50]
+@snap[west span-40]
 @box[bg-green text-white box-padding](Changing last commit#git commit --amend)
 @snapend
 
-@snap[east span-50]
-@box[bg-green text-white box-padding](Interactive rebase#git rebase -i HEAD~<n>)
+@snap[east span-40]
+@box[bg-green text-white box-padding](Interactive rebase#git rebase -i HEAD~&lt;n)
 @snapend
 
 ---
