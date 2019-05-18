@@ -187,6 +187,24 @@ git log --raw
 @snap[east span-35]
 @img[no-border fragment](assets/img/git-after-amend.png)
 @snapend
+
+---
+
+### Force push
+
+@ul
+
+- **It's a destructive operation!**
+- It must only be used when necessary
+
+@ulend
+
+```bash
+git push -f | --force [remote] [branch]
+
+git push <remote> +<branch>
+```
+
 ---
 
 ## Interesting Resources
