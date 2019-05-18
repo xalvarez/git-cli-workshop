@@ -206,6 +206,7 @@ git push <remote> +<branch>
 ### Reverting changes
 
 @ul[](false)
+
 - It's a safe operation!
 - No conflicts
 - Your pair-programming partner will love you
@@ -216,6 +217,25 @@ git push <remote> +<branch>
 git revert HEAD~<n>
 git revert <commit_hash>
 git revert <oldest_commit_to_revert>..<newest_commit_to_revert>
+```
+
+---
+
+### Resetting
+
+Reset modes:
+
+@ul[](false)
+
+- --mixed (default): _unstages_ current working tree (not marked for commit)
+- --soft: leaves current working tree staged (marked for commit)
+- --hard: removes current working tree. Destroys local changes!
+
+@ulend
+
+```bash
+git reset [mode] <remote>/<branch>
+git reset [mode] <commit_hash>
 ```
 
 ---
