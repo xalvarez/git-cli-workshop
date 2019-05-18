@@ -261,29 +261,21 @@ git branch <new-branch-name> [stash_id]
 ### Git Configuration
 @snapend
 
-@snap[west span-45]
+@snap[south-west span-35]
 @box[bg-green text-white box-padding](Repo's config#.git/config)
 @snapend
 
-@snap[east span-45]
+@snap[south-east span-35]
 @box[bg-green text-white box-padding](Repo's config#~.gitconfig)
 @snapend
 
-@snap[south-west span-45]
-
 ```bash
-git config -l
+git config [--global] -l
+git config user.name "Xavier Alvarez"
+git config color.ui auto
+git config alias.<some alias> <git command>
+git config alias.<some alias> !<shell command>
 ```
-
-@snapend
-
-@snap[south-east span-45]
-
-```bash
-git config --global -l
-```
-
-@snapend
 
 ---
 
@@ -294,5 +286,6 @@ git config --global -l
 - Git Official Docs: [git-scm.com/doc](https://git-scm.com/doc)
 - [try.github.io](http://try.github.io)
 - Hub: [github.com/github/hub](https://github.com/github/hub)
+- gitk: sudo apt install gitk
 
 @ulend
