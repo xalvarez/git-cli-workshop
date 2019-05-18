@@ -87,9 +87,7 @@ Checking working branch:
 
 ```bash
 git branch -vv
-
 git branch -m <new-branch-name>
-
 git branch -u <remote>[/<branch>]
 ```
 
@@ -100,11 +98,8 @@ git branch -u <remote>[/<branch>]
 Preparing a commit:
 ```bash
 git status
-
 git add <path>
-
 git add -u
-
 git add -A
 ```
 
@@ -115,11 +110,8 @@ git add -A
 Preparing a commit:
 ```bash
 git commit
-
 git commit -m
-
 git commit -a
-
 git commit --amend
 ```
 
@@ -130,7 +122,6 @@ git commit --amend
 Merging local and remote branches:
 ```bash
 git fetch upstream
-
 git rebase upstream/master
 ```
 
@@ -141,9 +132,7 @@ git rebase upstream/master
 Creating a pull request:
 ```bash
 git push
-
 git push -u <remote> <branch>
-
 hub pull-request -o
 ```
 
@@ -158,13 +147,9 @@ hub pull-request -o
 Checking last commits:
 ```bash
 git log
-
 git log -<>
-
 git log <path>
-
 git log --oneline
-
 git log --raw
 ```
 
@@ -209,7 +194,6 @@ git log --raw
 
 ```bash
 git push -f | --force [remote] [branch]
-
 git push <remote> +<branch>
 ```
 
