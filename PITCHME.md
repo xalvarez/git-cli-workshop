@@ -240,6 +240,12 @@ git reset [mode] <commit_hash>
 
 ---
 
+### Fetching remote files
+
+```bash
+git checkout [<remote>/<branch>] [<path to replace>]
+```
+
 ### Stashing
 
 ```bash
