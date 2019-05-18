@@ -12,8 +12,8 @@ Xavier Alvarez
 
 - Happy Path
 - Viewing and re-writing history
+- Undoing changes
 - Conflict resolution
-- Reverts & resets
 - Removing & moving files
 - Git configuration
 - Handling multiple accounts
@@ -214,6 +214,25 @@ git push <remote> +<branch>
 ```
 
 ---
+
+## Undoing changes
+
+---
+
+### Reverting changes
+
+@ul[](false)
+- It's a safe operation!
+- No conflicts
+- Your pair-programming partner will love you
+
+@ulend
+
+```bash
+git revert HEAD~<n>
+git revert <commit_hash>
+git revert <oldest_commit_to_revert>..<newest_commit_to_revert>
+```
 
 ## Interesting Resources
 
