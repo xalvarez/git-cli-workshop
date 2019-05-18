@@ -259,14 +259,6 @@ git branch <new-branch-name> [stash_id]
 
 ### Git Configuration
 
-@snap[north-west span-25]
-@box[bg-green text-white box-padding](Repo's config#.git/config)
-@snapend
-
-@snap[north-east span-25]
-@box[bg-green text-white box-padding](Global config#~.gitconfig)
-@snapend
-
 ```bash
 git config [--global] -l
 git config user.name "Xavier Alvarez"
@@ -274,6 +266,15 @@ git config color.ui auto
 git config alias.<some alias> <git command>
 git config alias.<some alias> !<shell command>
 ```
+
+Configuration files:
+
+@ul[](false)
+
+- Global configuration: ~.gitconfig
+- -Current repo's configuration: .git/config
+
+@ulend
 
 ---
 
