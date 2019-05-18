@@ -56,7 +56,11 @@ hub fork --remote-name origin
 
 ---
 
-### Starting to work (I)
+@img[no-border](assets/img/git-after-cloning.png)
+
+---
+
+### Starting to work
 
 Updating references:
 
