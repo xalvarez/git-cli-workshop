@@ -169,7 +169,7 @@ git log --raw
 @snapend
 
 @snap[east span-40]
-@box[bg-green text-white box-padding](Interactive rebase#git rebase -i HEAD~&lt;n)
+@box[bg-green text-white box-padding](Interactive rebase#git rebase -i HEAD~&lt;n&gt;)
 @snapend
 
 ---
