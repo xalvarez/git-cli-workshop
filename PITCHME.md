@@ -200,7 +200,7 @@ git log --raw
 
 ### Force push
 
-@ul
+@ul[](false)
 
 - **It's a destructive operation!**
 - It must only be used when necessary
