@@ -234,6 +234,8 @@ git revert <commit_hash>
 git revert <oldest_commit_to_revert>..<newest_commit_to_revert>
 ```
 
+---
+
 ## Interesting Resources
 
 @ul[](false)
