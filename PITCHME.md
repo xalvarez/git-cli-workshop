@@ -356,7 +356,7 @@ Examples:
 
 @ul
 
-- [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/)
+- [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/#seven-rules)
 - [Commit guidelines (git official documentation)](https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines)
 
 @ulend
