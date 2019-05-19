@@ -13,6 +13,7 @@ Xavier Alvarez
 - Happy Path
 - Viewing and re-writing history
 - Undoing changes
+- Refactoring
 - Git configuration
 - Handling multiple accounts
 - Guidelines for writing commits
@@ -266,7 +267,37 @@ git branch <new-branch-name> [stash_id]
 
 ---
 
-### Git Configuration
+## Refactoring
+
+Removing files:
+
+```bash
+git rm [-r] <path>
+# Removes file from the index and from the disk
+
+git rm --cached <path>
+# Removes file from the index only (no physical removal)
+```
+
+<div class="fragment">
+Moving files:
+
+```bash
+git mv <current_path> <new_path>
+# Shortcut for mv && git add && git rm
+```
+
+<div class="fragment">
+Copying commit:
+
+```bash
+git cherry-pick <commit>
+```
+</div>
+
+---
+
+## Git Configuration
 
 ```bash
 git config [--global] -l
@@ -292,6 +323,7 @@ Configuration files:
 @ul[](false)
 
 - Git Official Docs: [git-scm.com/doc](https://git-scm.com/doc)
+- How to write ranges: [git-scm.com/docs/gitrevisions](https://git-scm.com/docs/gitrevisions)
 - [try.github.io](http://try.github.io)
 - Hub: [github.com/github/hub](https://github.com/github/hub)
 - gitk: sudo apt install gitk
