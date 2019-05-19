@@ -165,17 +165,19 @@ git log --raw
 
 @title[Re-writing history (I)]
 
-@snap[north span-100]
 ### Re-writing history
-@snapend
 
-@snap[west span-45]
-@box[bg-green text-white box-padding](Changing last commit#git commit --amend)
-@snapend
+Changing last commit:
 
-@snap[east span-45]
-@box[bg-green text-white box-padding](Interactive rebase#git rebase -i HEAD~&lt;n&gt;)
-@snapend
+```bash
+git commit --amend
+```
+
+Changing history:
+
+```bash
+git rebase -i HEAD~<n>
+```
 
 ---
 
