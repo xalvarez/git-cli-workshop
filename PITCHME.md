@@ -386,3 +386,7 @@ Examples:
 ---?image=assets/img/thank-you.png
 
 @title[Thank you]
+
+@snap[south-east text-05]
+Image by [Gerd Altman](https://pixabay.com/users/geralt-9301) from [Pixabay](https://pixabay.com)
+@snapend
