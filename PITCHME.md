@@ -6,6 +6,14 @@ Xavier Alvarez
 
 ---
 
+@title[Presentation link]
+
+[gitpitch.com/xalvarez/git-cli-workshop](https://gitpitch.com/xalvarez/git-cli-workshop)
+
+@img[no-border](assets/img/git-cli-workshop-qr.png)
+
+---
+
 ## Agenda
 
 @ol[](false)
@@ -16,7 +24,6 @@ Xavier Alvarez
 - Refactoring
 - Git configuration
 - Guidelines for writing commits
-- Handling multiple accounts
 
 @olend
 
