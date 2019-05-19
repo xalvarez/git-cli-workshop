@@ -382,3 +382,7 @@ Examples:
 - GitKraken (non-commercial use only): [gitkraken.com](https://www.gitkraken.com)
 
 @ulend
+
+---?image=assets/img/thank-you.png
+
+@title[Thank you]
