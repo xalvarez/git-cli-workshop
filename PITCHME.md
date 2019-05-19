@@ -118,7 +118,6 @@ Preparing a commit:
 git commit
 git commit -m
 git commit -a
-git commit --amend
 ```
 
 ---
@@ -153,7 +152,7 @@ hub pull-request -o
 Checking last commits:
 ```bash
 git log
-git log -<>
+git log -<n>
 git log <path>
 git log --oneline
 git log --raw
@@ -247,6 +246,12 @@ git revert <oldest_commit_to_revert>..<newest_commit_to_revert>
 
 ### Resetting
 
+```bash
+git reset [mode] <remote>/<branch>
+git reset [mode] <commit>
+git reset <path>
+```
+
 Reset modes:
 
 @ul[](false)
@@ -256,11 +261,6 @@ Reset modes:
 - --hard: removes current working tree. Destroys local changes!
 
 @ulend
-
-```bash
-git reset [mode] <remote>/<branch>
-git reset [mode] <commit_hash>
-```
 
 ---
 
@@ -317,7 +317,6 @@ git config [--global] -l
 git config user.name "Xavier Alvarez"
 git config color.ui auto
 git config alias.<some alias> <git command>
-git config alias.<some alias> !<shell command>
 ```
 
 Configuration files:
