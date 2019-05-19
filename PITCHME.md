@@ -151,6 +151,15 @@ git log --oneline
 git log --raw
 ```
 
+@css[fragment](Some visualization tools:)
+
+@ul[fragment](false)
+
+- gitk: sudo apt install gitk
+- GitKraken (non-commercial use only): [gitkraken.com](https://www.gitkraken.com)
+
+@ulend
+
 ---
 
 @title[Re-writing history (I)]
@@ -286,5 +295,6 @@ Configuration files:
 - [try.github.io](http://try.github.io)
 - Hub: [github.com/github/hub](https://github.com/github/hub)
 - gitk: sudo apt install gitk
+- GitKraken (non-commercial use only): [gitkraken.com](https://www.gitkraken.com)
 
 @ulend
