@@ -198,6 +198,13 @@ git rebase -i HEAD~<n>
 @img[no-border fragment](assets/img/git-after-amend.png)
 @snapend
 
+Note:
+
+What happens to commit ID's after amend or rebase? E.g. amend:
+
+- Before amend: local and remote copies are equal
+- After amend: one ID has changed
+
 ---
 
 ### Force push
