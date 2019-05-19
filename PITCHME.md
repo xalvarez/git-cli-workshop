@@ -279,7 +279,6 @@ git rm --cached <path>
 # Removes file from the index only (no physical removal)
 ```
 
-<div class="fragment">
 Moving files:
 
 ```bash
@@ -287,13 +286,11 @@ git mv <current_path> <new_path>
 # Shortcut for mv && git add && git rm
 ```
 
-<div class="fragment">
 Copying commit:
 
 ```bash
 git cherry-pick <commit>
 ```
-</div>
 
 ---
 
