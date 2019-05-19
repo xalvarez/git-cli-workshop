@@ -15,8 +15,8 @@ Xavier Alvarez
 - Undoing changes
 - Refactoring
 - Git configuration
-- Handling multiple accounts
 - Guidelines for writing commits
+- Handling multiple accounts
 
 @olend
 
@@ -316,6 +316,32 @@ Configuration files:
 @ulend
 
 ---
+
+## Guidelines for writing commits
+
+@ul
+
+- These are guidelines and should be adapted to each team / use-case
+- 50/72 rule (**vim** uses it by default)
+- Use imperative (just like _git_ does)
+- Talk about _what_ and / or _why_, not about _how_
+
+@ulend
+
+@ol
+
+- Title (max. 50 characters) answering the question _what?_
+- (Optional) Further information answering the question _what?_
+- (Optional) Explain the problem that the commit solves (answering the question _why?_)
+
+@olend
+
+@ul
+
+- [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/)
+- [Commit guidelines (git official documentation)](https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines)
+
+@ulend
 
 ## Interesting Resources
 
