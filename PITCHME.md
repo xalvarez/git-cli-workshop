@@ -319,6 +319,12 @@ Configuration files:
 
 ## Guidelines for writing commits
 
+---
+
+## How to write a good commit? (I)
+
+Main ideas:
+
 @ul
 
 - These are guidelines and should be adapted to each team / use-case
@@ -327,6 +333,12 @@ Configuration files:
 - Talk about _what_ and / or _why_, not about _how_
 
 @ulend
+
+---
+
+## How to write a good commit? (II)
+
+Commit structure:
 
 @ol
 
@@ -342,6 +354,8 @@ Configuration files:
 - [Commit guidelines (git official documentation)](https://www.git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project#_commit_guidelines)
 
 @ulend
+
+---
 
 ## Interesting Resources
 
