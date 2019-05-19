@@ -6,7 +6,7 @@ Xavier Alvarez
 
 ---
 
-@title[Presentation link]
+## Presentation slides
 
 [gitpitch.com/xalvarez/git-cli-workshop](https://gitpitch.com/xalvarez/git-cli-workshop)
 
