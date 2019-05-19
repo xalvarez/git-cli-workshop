@@ -310,7 +310,7 @@ Configuration files:
 
 @ul[](false)
 
-- Global configuration: ~.gitconfig
+- Global configuration: ~/.gitconfig
 - Current repo's configuration: .git/config
 
 @ulend
