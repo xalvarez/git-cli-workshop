@@ -348,6 +348,12 @@ Commit structure:
 
 @olend
 
+---
+
+## How to write a good commit? (III)
+
+Examples:
+
 @ul
 
 - [The seven rules of a great Git commit message](https://chris.beams.io/posts/git-commit/)
